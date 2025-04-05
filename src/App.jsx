@@ -19,7 +19,7 @@ export default function App() {
       </div>
       <div id='container2'>
         <div id='font-color'>
-          <h2 id='text-h'>Choose your text color</h2>
+          <h2 id='text-h'>Choose your text Color</h2>
           <div id='font-color-names'>
           <button id='red' onClick={()=>{textColor('red')}}></button>
           <button id='blue' onClick={()=>{textColor('blue')}}></button>
@@ -45,8 +45,7 @@ export default function App() {
       </div>
 
    </div>
-   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4259150349992302"
-     crossorigin="anonymous"></script>
+
    </>
   )
 }
