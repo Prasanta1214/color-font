@@ -1,93 +1,173 @@
-#heading{
-  color: coral;
-  font-size: 65px;
-  text-shadow: 3px 3px 3px blue,3px 3px 3px black, 3px 3px 3px red;
-  text-align: center;
-}
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-#container1{
+.heading{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#heading{
+
+  color: red;
+  text-shadow: 3px 3px 5px black, 5px 5px 2px blue, 3px 3px 1px navy;
+  font-size: 62px;
+
+}
+
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border: 5px solid coral;
+  padding: 20px 4px 20px 4px;
+  row-gap: 20px;
+}
+
+#child1{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 5px;
+  justify-content: center;
   flex-direction: column;
   padding-left: 10px;
-  row-gap: 5px;
-  flex-wrap: wrap;
 }
-#container2{
+
+#child2{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  flex-wrap: wrap;
+  row-gap: 20px;
+
 }
+
+#fonts{
+  display: flex;
+  column-gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 5px solid gray;
+  padding: 25px;
+}
+
 #text{
-  height: 470px;
-  width: 470px;
+  height:350px;
+  width: 350px;
+  text-align: center;
+  vertical-align: middle;
   border: 1px solid black;
-  flex-wrap: wrap;
 }
-#down{
-  height:45px;
+
+#download-btn{
+  height: 45px;
+  padding: 2px 5px 2px 5px;
   width: fit-content;
   border: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  background-color: blue;
+  background-color: red;
   color: white;
   border-radius: 8px;
   cursor: pointer;
-  padding: 5px;
 }
-#font-color-names{
-  display: flex;
-  column-gap: 10px;
-}
-#bg-color-names{
-  display: flex;
-  column-gap: 10px;
-}
+
+
 #red{
-  height:25px;
-  width: 25px;
+  height: 45px;
+  width: 45px;
   background-color: red;
   border: none;
   cursor: pointer;
 }
-#blue{
-  height:25px;
-  width: 25px;
-  background-color: blue;
-  border: none;
-  cursor: pointer;
-}
-#yellow{
-  height:25px;
-  width: 25px;
-  background-color: yellow;
-  border: none;
-  cursor: pointer;
-}
-#orange{
-  height:25px;
-  width: 25px;
-  background-color: orange;
+
+#green{
+  height: 45px;
+  width: 45px;
+  background-color: green;
   border: none;
   cursor: pointer;
 }
 
-#pink{
-  height:25px;
-  width: 25px;
-  background-color: pink;
+#blue{
+  height: 45px;
+  width: 45px;
+  background-color: blue;
   border: none;
   cursor: pointer;
 }
-#text-h{
-  font-size: 30px;
-  color: lightcoral;
+
+#yellow{
+  height: 45px;
+  width: 45px;
+  background-color: yellow;
+  border: none;
+  cursor: pointer;
+}
+#purple{
+  height: 45px;
+  width: 45px;
+  background-color: purple;
+  border: none;
+  cursor: pointer;
+}
+
+#text-color{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid gray;
+  padding: 10px 0 10px 0;
+  row-gap: 10px;
+}
+
+#bg-color{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+  border: 5px solid gray;
+  padding: 10px 0 10px 0;
+}
+
+
+#text-color-names{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+
+
+#sub-heading{
+  font-size: 22px;
+  color: mediumorchid;
+}
+
+#times-new{
+  font-family: 'Times New Roman', Times, serif;
+  border: 1.5px dashed red;
+  cursor:pointer;
+}
+
+#cursive{
+  font-family: cursive;
+  border: 1.5px dashed red;
+  cursor:pointer;
+}
+
+#verdana{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1.5px dashed red;
+  cursor:pointer;
+  
+}
+
+#arial{
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1.5px dashed red;
+  cursor:pointer;
+}
+
+#impact{
+  font-family: Impact;
+  border: 1.5px dashed red;
+  cursor:pointer;
 }
